@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/full_background"
+    >
+    <RelativeLayout
+        android:id="@+id/myprofile_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_shop_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Edit profile"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/pink"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myprofile_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="9dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="Last Name :"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/myprofile_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="9dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="First Name :"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/myprofile_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="510dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
+
+            android:text="Address :"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pic_image_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/button_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Choose Profile pic"
+            android:textColor="@color/white"
+            android:elevation="2dp"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="275dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="580dp"
+            app:srcCompat="@drawable/ic_action_gallary" />
+
+        <TextView
+            android:id="@+id/myprofile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="330dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="Phone Number :"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/myprofile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="Email :"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/myprofile_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="7dp"
+
+            android:background="@drawable/edit_text_bg"
+            android:elevation="1dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="Gender :"
+            android:textSize="@dimen/_10sdp" />
+
+
+
+        <TextView
+            android:id="@+id/myprofile_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="390dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="250dp"
+            android:background="@drawable/edit_text_bg"
+            android:elevation="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+
+            android:text="Date Of Birth :"
+            android:textSize="@dimen/_10sdp" />
+
+        <EditText
+            android:id="@+id/myprofile_lname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/lightBlack"
+            android:elevation="4dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="Bethu" />
+
+        <EditText
+            android:id="@+id/myprofile_address1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="510dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="4dp"
+            android:paddingTop="7dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
+            android:textAlignment="gravity"
+            android:text="Dindoli,Surat."
+            android:textSize="15dp"
+            android:textColor="@color/lightBlack"/>
+        <EditText
+            android:id="@+id/myprofile_fname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="4dp"
+
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/lightBlack"
+            android:text="Purvi" />
+
+        <EditText
+            android:id="@+id/myprofile_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="330dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="4dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="9925299814"
+            android:textSize="15dp"
+            android:textColor="@color/lightBlack"/>
+
+        <EditText
+            android:id="@+id/myprofile_email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="270dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="4dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="abc123@gmail.com"
+            android:textSize="15dp"
+            android:textColor="@color/lightBlack"/>
+
+        <RadioGroup
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="455dp"
+            android:layout_marginStart="190dp"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:elevation="2dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:text="Male"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="108dp"
+                android:layout_height="26dp"
+                android:text="Female"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/myprofile_birthday1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="390dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="4dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="11-03-1998" />
+
+
+        <Button
+            android:id="@+id/editProfile_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="670dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"
+            android:text="update" />
+    </RelativeLayout>
+</ScrollView>

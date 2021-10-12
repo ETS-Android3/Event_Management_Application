@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/full_background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="5.00dp"
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        android:elevation="10dp"/>
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edit_text_bg"
+        android:elevation="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/_13sdp"
+        android:paddingRight="10dp"
+        android:paddingBottom="13dp"
+        android:hint="Give feedback"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/feedback_qtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="48dp"
+       android:layout_marginTop="180dp"
+        android:paddingTop="20dp"
+        android:text="How would we improve our services ?"
+        android:textColor="@color/brown"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="88dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+       android:layout_alignParentTop="true"
+        android:layout_marginEnd="323dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/ic_arrow"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="200dp"
+    android:layout_marginTop="250dp"
+        android:text="Quality of work"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="30dp"
+     android:layout_marginTop="250dp"
+        android:text="Value of money"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="300dp"
+        android:text="Grand Decor"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="30dp"
+       android:layout_marginTop="300dp"
+        android:text="Professionalism"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="350dp"
+        android:text="Classy and Elegent"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="200dp"
+    android:layout_marginTop="350dp"
+        android:text="Unique idea"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="30dp"
+      android:layout_marginTop="400dp"
+        android:text="On time service"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="200dp"
+      android:layout_marginTop="400dp"
+        android:text="Accomodating"
+        android:textColor="@color/brown"
+        android:theme="@style/colored_checkBox"/>
+
+    <Button
+        android:id="@+id/feedback_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/button_bg"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:ignore="MissingConstraints"
+        android:elevation="8dp"/>
+</RelativeLayout>
+
+</ScrollView>

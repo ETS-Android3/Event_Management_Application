@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.IntroductoryActivity"
+    tools:ignore="MissingClass">
+
+    <ImageView
+        android:id="@+id/img"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:elevation="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="124dp"
+        app:lottie_rawRes="@raw/vendor_main_page" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="510dp"
+        app:srcCompat="@drawable/white_logo"
+        />
+
+    <ImageView
+        android:id="@+id/appname"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="480dp"
+        app:srcCompat="@drawable/app_name"
+        />
+
+    <com.cuberto.liquid_swipe.LiquidPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/prog_relay"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:padding="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.478"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.272"-->
+<!--        android:background="@drawable/white_circle"-->
+<!--        android:elevation="8dp"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressbar"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:indeterminateTint="@color/white" />-->
+
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>

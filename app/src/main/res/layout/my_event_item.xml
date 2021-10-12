@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/edit_text_bg"
+    android:elevation="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/decora_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/swipe22"
+        />
+    <TextView
+        android:id="@+id/available_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_toEndOf="@+id/decora_image"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/available_service_name_pending"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="17dp"-->
+<!--        android:layout_toEndOf="@+id/decora_image"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingBottom="5dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="15dp" />-->
+
+    <TextView
+        android:id="@+id/money_sym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="200dp"
+        android:layout_toEndOf="@+id/decora_image"
+        android:textStyle="bold"
+        android:text="Date: "
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/my_event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/decora_image"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="55dp"
+
+        android:text="12-4-2021"
+        android:paddingTop="1dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/decora_image"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:text="Time: " />
+
+    <TextView
+        android:id="@+id/my_event_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/decora_image"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="190dp"
+        android:text="12:07"
+        android:paddingTop="1dp"/>
+
+    <TextView
+        android:id="@+id/my_event_decoration_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/decora_image"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="18dp"
+        android:text="xyz decoration"
+        android:paddingTop="1dp"/>
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Cancel Order"
+        android:backgroundTint="@color/lightRed"/>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/lightRed"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/accepted_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Accepted"
+        android:backgroundTint="@color/lightGreen"/>
+</RelativeLayout>
